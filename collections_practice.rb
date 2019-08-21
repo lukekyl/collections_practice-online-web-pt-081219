@@ -27,7 +27,7 @@ end
 
 def kesha_maker(array)
   array.each{|string|
-    string
+    string.[3]
   }
 end 
 
