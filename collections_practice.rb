@@ -27,7 +27,9 @@ end
 
 def kesha_maker(array)
   array.each{|string|
-    string.split[3] = "$"
+    temp = string.split
+    temp[3] = "$"
+    temp.join
   }
 end 
 
