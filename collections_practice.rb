@@ -41,7 +41,7 @@ def find_a(array)
       temp << string
     end
   }
-  temp
+  return temp
 end
 
 def sum_array(array)
