@@ -28,7 +28,7 @@ end
 def kesha_maker(array)
   array.collect{|string|
     string.split("")
-    string[3] = "$"
+    string[2] = "$"
     string
   }
 end 
