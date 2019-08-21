@@ -18,6 +18,7 @@ def swap_elements(array)
     tempb = array[2]
     array[1] = tempb
     array[2] = tempa
+    array
 end
 
 def reverse_array(array)
