@@ -35,7 +35,7 @@ end
 
 def find_a(array)
   temp = []
-  array.all?{|string|
+  array.select{|string|
     string.split("")
     if string[0] == "a"
       temp << string
