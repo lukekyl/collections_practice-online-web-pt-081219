@@ -31,6 +31,7 @@ def kesha_maker(array)
     temp[2] = "$"
     temp.join
   }
+  temp
 end 
 
 def find_a(array)
