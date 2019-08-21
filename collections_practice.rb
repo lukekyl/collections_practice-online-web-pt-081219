@@ -15,7 +15,6 @@ end
 
 def swap_elements(array)
     array.sort{|array[1], array[2]|
-    a <=> b
-    
+    array[1] <=> array[2]
     }
 end
