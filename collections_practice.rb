@@ -35,12 +35,13 @@ end
 
 def find_a(array)
   temp = []
-  array.each{|string|
+  array.find{|string|
     string.split("")
     if string[0] == "a"
       temp << string
     end
   }
+  temp
 end
 
 def sum_array(array)
