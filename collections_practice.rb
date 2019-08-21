@@ -26,14 +26,9 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
-  temp_array = []
-  array.each{|string|
-    temp = string.split("")
-    temp[2] = "$"
-    temp.join
-    temp_array << temp
+  array.collect{|string|
+    string[3] = $
   }
-  temp_array
 end 
 
 def find_a(array)
